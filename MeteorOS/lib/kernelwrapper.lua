@@ -1,3 +1,3 @@
 package.path = package.path .. ";/MeteorOS/system/?.lua"
-local kernel = require("kernel")
-kernel.boot()
+local wrapper = require("kernel")
+return wrapper
