@@ -25,9 +25,9 @@ local function handleInput()
             kernel.updateOS()
         elseif input == "clear" then
             term.clear()
-            textutils.slowPrint("[[ -------------------------------- ]]", 0.3)
-            textutils.slowPrint("[[ Aurora Interactive Shell Ver 1.0 ]]", 0.3)
-            textutils.slowPrint("[[ -------------------------------- ]]", 0.3)
+            print("[[ -------------------------------- ]]")
+            print("[[ Aurora Interactive Shell Ver 1.0 ]]")
+            print("[[ -------------------------------- ]]")
             print()
         elseif input == "netshell" then
             netutils.NetShell()
