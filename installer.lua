@@ -1,5 +1,6 @@
 if fs.exists("/MeteorOS") then
     fs.delete("/MeteorOS")
+    fs.delete("startup.lua")
 end
 fs.makeDir("/MeteorOS")
 fs.makeDir("/MeteorOS/system")
