@@ -1,0 +1,1 @@
+shell.run("/MeteorOS/system/x86/core/shell.lua")
