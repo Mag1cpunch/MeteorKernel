@@ -6,9 +6,9 @@ local kernel = require("kernelwrapper")
 local cdir = "/"
 local function handleInput()
     term.clear()
-    textutils.slowPrint("[[ -------------------------------- ]]", 0.3)
-    textutils.slowPrint("[[ Aurora Interactive Shell Ver 1.0 ]]", 0.3)
-    textutils.slowPrint("[[ -------------------------------- ]]", 0.3)
+    print("[[ -------------------------------- ]]")
+    print("[[ Aurora Interactive Shell Ver 1.0 ]]")
+    print("[[ -------------------------------- ]]")
     print()
     while true do
         local input = pylua.input(cdir..":root$ ")
